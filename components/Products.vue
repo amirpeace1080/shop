@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="product-page">
     <div class="card-image">
       <figure class="image is-4by3">
         <img
@@ -184,6 +184,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  .product-page{
+    // box-shadow: 0 0 20px #000000;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 2);
+  }
+
+  .product-page:hover{
+    transform: translateY(4px);
+    // box-shadow: 0 1rem 2rem rgba(0, 0, 0, 2);
+  }
+
+  .product-page:active{
+    transform: translateY(-2px);
+  }
+
 .details {
   cursor: pointer;
   position: absolute;
@@ -193,9 +208,9 @@ export default {
   height: 100%;
   z-index: 1;
 
-  &:hover {
-    border: 1px solid #51bafc;
-  }
+  // &:hover {
+  //   border: 1px solid #51bafc;
+  // }
 }
 .button,
 .select {
