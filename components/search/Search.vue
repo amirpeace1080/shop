@@ -27,9 +27,9 @@ export default {
 	computed: {
 		placeholder () {
 			if (this.$route.path === '/wishlist') {
-				return 'Search in wishlist...';
+				return 'جستجو در لیست علاقه مندی ها';
 			} else {
-				return 'Search...';
+				return 'جستجو...';
 			}
 		}
 	},

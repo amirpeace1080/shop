@@ -77,7 +77,7 @@
             <button
               class="button is-text"
               v-if="product.isAddedToCart"
-              @click="removeFromCart(product.id, false)"
+              @click="removeFromCart(product.id, falsearch)"
             >
               {{ removeFromCartLabel }}
             </button>

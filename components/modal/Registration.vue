@@ -110,14 +110,14 @@ export default {
 
   data () {
     return {
-      modalTitle: 'Sign up',
+      modalTitle: 'ثبت نام',
       modalTitleRegistered: 'Welcome ',
       primaryBtnLabel: 'Sign up',
       btnRegisteredLabel: 'Close',
-      namePlaceholder: 'Name*',
-      emailPlaceholder: 'Email*',
-      passwordPlaceholder: 'Password*',
-      repeatPasswordPlaceholder: 'Repeat Password*',
+      namePlaceholder: 'نام خود را وارد نمایید*',
+      emailPlaceholder: 'ایمیل خود را وارد نمایید*',
+      passwordPlaceholder: 'گذر واژه*',
+      repeatPasswordPlaceholder: 'تکرار گذر واژه*',
       notEqualErrorLabel: 'Passwords must be equal',
       passwordErrorLabel: 'Password required',
       nameErrorLabel: 'Name required',

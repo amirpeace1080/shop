@@ -34,7 +34,7 @@
                 <input 
                   :class="[highlightPasswordWithError ? 'input is-danger' : 'input']"
                   type="password"
-                  placeholder="Your password"
+                  placeholder="رمز عبور"
                   name="passwordName"
                   v-model="password"
                   @keyup="checkPasswordOnKeyUp(password)"
@@ -75,14 +75,14 @@ export default {
 
   data () {
     return {
-      modalTitle: 'Log in',
+      modalTitle: 'ورود',
       modalTitleLoggedIn: 'Welcome!',
       primaryBtnLabel: 'Log in',
       emailRequiredLabel: 'Email required',
       passwordRequiredLabel: 'Password required',
       emailNotValidLabel: 'Valid email required',
       btnLoggedInLabel: 'Close',
-      emailPlaceholder: 'Your email',
+      emailPlaceholder: 'ایمیل خود را وارد کنید',
       email: '',
       password: '',
       highlightEmailWithError: null,
