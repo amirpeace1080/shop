@@ -58,7 +58,6 @@
           <span class="mr-5"></span>
           <span class="mr-5"></span>
           <span class="mr-5"></span>
-          <span class="mr-2"></span>
           <div class="navbar-item shopping-cart" @click="showCheckoutModal">
             <span
               :class="[numProductsAdded > 0 ? 'tag is-info' : '']"
