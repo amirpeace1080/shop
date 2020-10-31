@@ -1,5 +1,6 @@
 <template>
-	<p class="control has-icons-left">
+	<div class="ml-6">
+		<p class="control has-icons-left">
 		<input
 			class="input is-rounded"
 			type="text"
@@ -11,6 +12,7 @@
 			<i class="fa fa-search"></i>
 		</span>
 	</p>
+	</div>
 </template>
 
 <script>

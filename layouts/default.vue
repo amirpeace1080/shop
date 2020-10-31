@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style>
+  *{
+    direction: rtl;
+  }
+
   .el-header, .el-footer {
     background-color: #B3C0D1;
     color: #333;

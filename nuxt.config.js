@@ -70,6 +70,7 @@ module.exports = {
       src: 'bulma/bulma.sass',
       lang: 'sass'
     },
+    './assets/style/main.scss'
   ],
 
   /*
@@ -82,12 +83,15 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/font-awesome'
+    '@nuxtjs/font-awesome',
   ],
   /*
   ** Axios module configuration
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-  }
+  },
+
+  //for animation in move page
+  transition: 'fade',
 }
